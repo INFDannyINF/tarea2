@@ -1,0 +1,168 @@
+*
+{
+    margin: 0px;
+}
+#caja1
+{
+    background-color: rgb(175, 13, 175);
+    width: 200px;
+    height: 120px; 
+    border-radius: 360px;
+    position: relative;
+    top: 50px;
+    left: 120px;
+    
+}
+.caja1hijo1
+{
+    background-color: yellow;
+    width: 200px;
+    height: 20px; 
+    border-radius: 360px;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    
+}
+
+
+
+.caja2
+{
+    background-color: rgb(175, 13, 175);
+    width: 390px;
+    height: 50px; 
+    border-radius: 360px;
+    position: relative;
+    top: 100;
+    left: 30px;
+    z-index: 1;
+}
+.caja3
+{
+    background-color: #eeb36d;
+    width: 270px;
+    height: 285px; 
+    border-radius: 350px;
+    position: relative;
+    top: -50px;
+    left: 90px;
+    z-index: 0;
+}
+.caja3hijo1
+{
+    background-color: white;
+    width: 50px;
+    height: 55px; 
+    border-radius: 350px;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    
+}
+.caja3nieto1
+{
+    background-color: black;
+    width: 35px;
+    height: 35px; 
+    border-radius: 350px;
+    position: absolute;
+    top: 15px;
+    left: 8px;
+    
+}
+.caja3na
+{
+    background-color: white;
+    width: 10px;
+    height: 10px; 
+    border-radius: 350px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    
+}
+
+.caja3hijo2
+{
+    background-color: white;
+    width: 50px;
+    height: 55px; 
+    border-radius: 350px;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    z-index: 0;
+}
+.caja3nieto2
+{
+    background-color: black;
+    width: 35px;
+    height: 35px; 
+    border-radius: 350px;
+    position: absolute;
+    top: 15px;
+    left: 8px;
+    
+}
+.caja3nb
+{
+    background-color: white;
+    width: 10px;
+    height: 10px; 
+    border-radius: 350px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    
+}
+.caja3hijo3
+{
+    background-color: red;
+    width: 50px;
+    height: 50px; 
+    border-radius: 350px;
+    position: absolute;
+    top: 100px;
+    left: 115px;
+    
+}
+
+
+.caja3hijo4
+{
+    background-color: red;
+    width: 140px;
+    height: 55px; 
+    border-radius: 350px;
+    position: absolute;
+    top: 170px;
+    left: 70px;
+    
+}
+.caja3nieto4
+{
+    background-color: white;
+    width: 70px;
+    height: 8px; 
+    border-radius: 350px;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    
+}
+.caja4
+{
+    background-color: rgb(14, 187, 43);
+    width: 200px;
+    height: 40px; 
+    border-radius: 360px;
+    position: relative;
+    top: -70px;
+    left: 125px;
+    
+}
+
+
+
+
