@@ -1,0 +1,177 @@
+.contenedor{
+    margin: 5px;
+    width: 950px;
+    height: 450px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    
+}
+/*--------------solo posicionamiento---------------*/
+.contenedor .c1{
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 400px; 
+    border-radius: 100%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+          
+}
+
+.contenedor .c1 .a1{
+    width: 60px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 70px;
+    left: 120px;
+}
+.contenedor .c1 .a1 .i1{
+    width: 30px;
+    height: 50px;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.contenedor .c1 .a2{
+    width: 60px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 70px;
+    left: 220px;
+}
+.contenedor .c1 .a2 .i2{
+    width: 30px;
+    height: 50px;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}    
+.contenedor .c1 .a3{
+    width: 200px;
+    height: 70px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+}
+.contenedor .c1 .a3 .b1{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+/*--------------solo flex---------------*/
+.contenedor .c2{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+          
+}
+.contenedor .c2 .x1{
+    width: 220px;
+    height: 90px;
+    margin: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;          
+}
+.contenedor .c2 .x1 .y1{
+    width: 60px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content:center;
+    
+}
+.contenedor .c2 .x1 .y1 .z1{
+    width: 35px;
+    height: 40px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 100%;
+    
+}
+
+
+.contenedor .c2 .x1 .y2{
+    width: 60px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content:center;
+          
+}
+.contenedor .c2 .x1 .y2 .z2{
+    width: 35px;
+    height: 40px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 100%;
+    
+}
+.contenedor .c2 .x2{
+    width: 200px;
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    justify-content:center;      
+}
+.contenedor .c2 .x2 .y3{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    background-color:red;
+    
+    
+
+}
+.contenedor .c2 .x3{
+    width: 230px;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    justify-content:center; 
+         
+}
+
+.contenedor .c2 .x3 .y4{
+    width: 200px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 100%;
+    background-color:rebeccapurple;
+    display: flex;
+    justify-content:center;
+    
+}
+.contenedor .c2 .x3 .y4 .z3{
+    width: 100px;
+    height: 30px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 100%;
+     
+    
+}
